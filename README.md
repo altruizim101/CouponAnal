@@ -15,8 +15,8 @@ The survey data describes different driving scenarios, including the destination
 The final submission should include the Practical Application 1 Jupyter Notebook and other relevant files, such as the dataset provided and uploaded to a GitHub repository as a first portfolio project. To explore the data, utilize knowledge of pandas and Python to create statistical summaries demonstrating differences in those who accepted and rejected the coupon. Utilize the Matplotlib and Seaborn libraries to create a visualization using Python. Ensure that the findings are clearly stated in a separate section alongside actionable items and recommendations.
 
 ## Links to Project Deliverables
-- READMe file with a summary of findings here
-- Link to Jupyter notebook here
+- READMe file with a summary of findings here >> https://github.com/altruizim101/CouponAnal/edit/main/README.md
+- Link to Jupyter notebook here >> http://localhost:8888/notebooks/Downloads/assignment5_1_starter/Project1_July23.ipynb?
 - Data Visualization
 
 ## (Data Understanding)
