@@ -17,7 +17,7 @@ The final submission should include the Practical Application 1 Jupyter Notebook
 ## Links to Project Deliverables
 - READMe file with a summary of findings here >> https://github.com/altruizim101/CouponAnal/edit/main/README.md
 - Link to Jupyter notebook here >> http://localhost:8888/notebooks/Downloads/assignment5_1_starter/Project1_July23.ipynb?
-- Data Visualization
+- Data Visualization >> https://github.com/altruizim101/CouponAnal
 
 ## (Data Understanding)
 I reveiwed features and attributes of the data, using Pandas tool and its functions. I loaded the data using:
