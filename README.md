@@ -20,8 +20,8 @@ The final submission should include the Practical Application 1 Jupyter Notebook
 - Data Visualization >> https://github.com/altruizim101/CouponAnal
 
 ## (Data Understanding)
-I reveiwed features and attributes of the data, using Pandas tool and its functions. I loaded the data using:
-data.head(), data.sample(), ...
+I reveiwed features and attributes of the data, using Pandas tool and its functions. I loaded data and reviewed summary of data content using the pandas methods:
+data.head(), data.info(), data.sample(), data.shape()...
 
 
 ## (Data Preparation)
@@ -80,19 +80,6 @@ c) go to cheap restaurants more than 4 times/ month and income less than 50K:
 
 Overall Observations above for "Bar" coupon reveals that drivers who accepted the coupons are generally 25+ yrs old, opt more often for low budget restaurant (< $20 range) including carry out& Takeouts, are low-income earners (< $50K) tend to do "carry out& Takeouts" more often than others, and tend to accept coupons more often on 80degree days.
 
-### Data Visualization - Plots & Findings
-- Fig 1: The barplot shows highest response rate for "Restaurant(<20)" and "carry out& Takeout" coupons, followed by "coffee house". The "Bar" category coupons ranked the lowest.
-- Figure2: The histogram shows most frequent 80-degree days, followed by 55degrees, and then 30degrees.
-- Figure3: In addition to type of coupon, other "attributes" of data considered for further insight. I looked at "marital status", "education", and "income" on acceptance rate.
-  In marital status case, the "singles" showed highet acceptance rate and "widowed" with lowest acceptance rate.
-  In education case, "some high school" shows highest coupon acceptance rate while graduate degree shows lowest.
-  In "income" scenario, we see low accpetance rate for earners above $75K
-- Figure4: The heatmap does not reveal much in terms of correlation in parameters.
-- Figure5: shows sample distribution based on education - highest with some college and bachelors degree.
-- Figure6: shows sample distribution based on marital status - "married partner" & "single" categories with largest.
-- Figure7: shows sample distribution based on income, with $25K - $37.5K having the highest. Interesting to note, above $75K earners also included in coupon data.
-- Figure8: The mostly sunny days for coupon clearly makes sense, as drivers will be more inlcined compared to rainy or snowy days.
-
 
 ## Independent Investigation
 Using the bar coupon example as motivation, explore one of the other coupon groups and try to determine the characteristics of passengers who accept the coupons.
@@ -112,8 +99,23 @@ Acceptance rate of "Carry away & take out" coupon 4 or more times
 - "Y" = 1, response = 55.5%
 - "Y" = 0, response = 44.5%
 
+## Findings - Data Visualization with Plots
+- Fig 1: The barplot shows highest response rate for "Restaurant(<20)" and "carry out& Takeout" coupons, followed by "coffee house". The "Bar" category coupons ranked the lowest.
+- Figure2: The histogram shows most frequent 80-degree days, followed by 55degrees, and then 30degrees.
+- Figure3: In addition to type of coupon, other "attributes" of data considered for further insight. I looked at "marital status", "education", and "income" on acceptance rate.
+  In marital status case, the "singles" showed highet acceptance rate and "widowed" with lowest acceptance rate.
+  In education case, "some high school" shows highest coupon acceptance rate while graduate degree shows lowest.
+  In "income" scenario, we see low accpetance rate for earners above $75K
+- Figure4: The heatmap does not reveal much in terms of correlation in parameters.
+- Figure5: shows sample distribution based on education - highest with some college and bachelors degree.
+- Figure6: shows sample distribution based on marital status - "married partner" & "single" categories with largest.
+- Figure7: shows sample distribution based on income, with $25K - $37.5K having the highest. Interesting to note, above $75K earners also included in coupon data.
+- Figure8: The mostly sunny days for coupon clearly makes sense, as drivers will be more inlcined compared to rainy or snowy days.
 
-
-
-
-
+## Next Steps & Recommendations
+Overall, the following observations and recommendations are noted:
+- The Acceptance Rate (Y=1) is higher by at least 10% in all scenarios considered in the different coupon groups.
+- The "Restaurant(<20)" and "carry out& Takeout" coupons will be most successful as shown by highest response rate.
+- Hotter days (80degrees) shoud be targeted, as shown by highest repsonse rate.
+- The "singles" group tend to accept coupons more than other groups, and should be a target group.
+- Less educated and lower income show high repsonse rates and should target groups for successful campaign.
